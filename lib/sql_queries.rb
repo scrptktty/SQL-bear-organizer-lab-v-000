@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  "SELECT * FROM bears GROUP BY name DESC LIMIT 1"
+  "SELECT * FROM bears ORDER BY name DESC LIMIT 1"
 end
